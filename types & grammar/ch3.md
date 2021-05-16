@@ -101,9 +101,9 @@ In this snippet, each of the simple primitives are automatically boxed by their 
 
 **Note:** The behavior of `toString()` and `[[Class]]` as illustrated here has changed a bit from ES5 to ES6, but we cover those details in the *ES6 & Beyond* title of this series.
 
-## Boxing Wrappers
+## Оберточные обьекты
 
-These object wrappers serve a very important purpose. Primitive values don't have properties or methods, so to access `.length` or `.toString()` you need an object wrapper around the value. Thankfully, JS will automatically *box* (aka wrap) the primitive value to fulfill such accesses.
+Оберточные объекты имеют очень важную задачу. Примитивы, как таковые, не имеют свойств или методов, поэтому для того чтобы доступиться до `.length` или вызвать `.toString()` необходим оберточный обьект вокруг значения. К щастью, JS автоматически *оборачивает* примитивное значение для исполнения таких процессов.
 
 ```js
 var a = "abc";
